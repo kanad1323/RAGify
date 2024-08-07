@@ -29,7 +29,7 @@ client = groq.Groq(
     #api_key=os.environ.get("GROQ_API_KEY"),
     api_key=st.secrets["GROQ_API_KEY"],
 )
-
+print("API Key:", st.secrets["GROQ_API_KEY"])
 # I have loaded a pre-trained sentence transformer model for generating text embeddings.
 # I chose 'all-mpnet-base-v2' for its balance of performance and accuracy.
 # This model is crucial for converting text to vector representations for similarity search.
