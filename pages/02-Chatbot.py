@@ -29,7 +29,7 @@ client = groq.Groq(
     #api_key=os.environ.get("GROQ_API_KEY"),
     api_key=st.secrets["GROQ_API_KEY"],
 )
-print("API Key:", st.secrets["GROQ_API_KEY"])
+
 # I have loaded a pre-trained sentence transformer model for generating text embeddings.
 # I chose 'all-mpnet-base-v2' for its balance of performance and accuracy.
 # This model is crucial for converting text to vector representations for similarity search.
@@ -261,6 +261,7 @@ def rag_query(query: str, index, all_chunks, chunk_to_doc, top_k: int = 10) -> t
 st.set_page_config(page_title="Blunder Mifflin", page_icon=":soccer:", layout="wide", initial_sidebar_state="expanded", menu_items=None)
 
 def main():
+    print("API Key:", st.secrets["GROQ_API_KEY"])
     st.write("Ask questions about Blunder Mifflin's Company Policy.")
 
     # I have processed PDFs and created the index at the start to ensure up-to-date information.
