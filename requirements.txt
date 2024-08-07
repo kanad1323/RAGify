@@ -1,0 +1,8 @@
+streamlit
+sentence-transformers
+pypdf
+langchain
+faiss-cpu
+groq
+python-dotenv
+IProgress
