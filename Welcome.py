@@ -6,27 +6,20 @@ st.set_page_config(page_title="RAGify", page_icon=":chat-plus-outline:", layout=
 st.write("""
 #### RAGify - Chat with Your Documents using Gen AI
 
-This chatbot is for RAGify - a tool that lets you chat with your documents using Generative AI & Retrieval-Augmented Generation (RAG).
+RAGify is a chatbot.
 
-Think of RAGify as giving your documents a brain.
+It is designed to search for information across many documents.
 
-#### Why RAGify?
+Simply upload your documents, and when you ask a question, it searches across them to find accurate answers.
 
-Individuals and companies often accumulate vast amounts of documentation in various formats like PDF and DOCX.\n
-Finding relevant information means sifting through multiple documents to locate concrete answers. Imagine being able to chat with these documents.\n
+RAGify makes your documents interactive using Generative AI and Retrieval-Augmented Generation (RAG).
 
-If you use ChatGPT or Gemini to upload your documents to chat with them, then that risks making your company's confidential information public.
+_**Click on the sidebar to interact with RAGify App.**_
 
-RAGify offers a secure mechanism to:
-- Build a secure system that works with your internal documents
-- Integrate with trusted external entities
-- Maintain the confidentiality of your data
+#### More details
 
-RAGify offers a simple, secure way to bring your static documents to life using the power of Generative AI.
 
-#### Navigation
+Check out the code of the chatbot [on Github.](https://github.com/kanad13/RAGify)
 
-Click on the sidebar to interact with RAGify App. \n
-If you would like to look at the code of the app, then [jump to Github](https://github.com/kanad13/RAGify). \n
-If you would like to know more about me, **Kunal Pathak**, the creator of this app, then [checkout my website](https://www.kunal-pathak.com).
+Checkout my website for other AI/ML projects - [Kunal-Pathak.com](https://www.kunal-pathak.com).
 				 """)
